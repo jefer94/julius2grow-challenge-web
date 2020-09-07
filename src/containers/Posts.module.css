@@ -1,0 +1,23 @@
+.sidebar {
+  margin-top: 20px;
+  width: 400px;
+  /* position: fixed;
+  display: inline-block;
+  padding-right: 20px;
+  right: 0; */
+}
+
+.container {
+  flex-shrink: unset;
+  width: 100vw;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media(max-width: 799px) {
+  .container {
+    flex-flow: wrap-reverse;
+  }
+}

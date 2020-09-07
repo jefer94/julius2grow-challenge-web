@@ -1,0 +1,17 @@
+.c-navbar {
+  background-color: var(--main-color);
+  /* height: 50px; */
+  /* color: #fff; */
+}
+
+.c-searchbar {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 1px #fff;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+
+}
